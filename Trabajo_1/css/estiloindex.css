@@ -60,7 +60,9 @@ main {
   text-align: center;
   color: #ccc;
 }
-
+.uno p {
+margin: 1em 0 1em 0;  
+}
 .parrafo {
   color: #ccc;
   text-align: justify;
@@ -68,6 +70,9 @@ main {
 .dos {
   margin-left: 12px;
   margin-right: 12px;
+}
+.dos p{
+margin: 1em 0 1em 0;
 }
 
 .leer-mas {
@@ -110,7 +115,7 @@ main {
 
 #der {
   width: 290px;
-  height: 300px;
+  height: 200px;
   border: 1px solid #ccc;
   float: right;
   color: whitesmoke;
@@ -146,7 +151,6 @@ footer {
   margin: auto;
   white-space: nowrap;
 }
-
 ul,
 ol {
   list-style: none;
